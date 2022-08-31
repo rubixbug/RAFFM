@@ -1,0 +1,91 @@
+body {
+    background-image: url(./images/raftruck.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-size: 100%;
+     margin:0;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.topnav a {
+    color: #741021;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:20px;
+}
+.topnav ul {
+    display:flex;
+    justify-content: space-around;
+}
+.topnav li {
+    list-style-type: none;
+    float: left;
+}
+
+.topnav img {
+    float:left;
+    max-width: 200px;
+}
+
+.topnav p {
+    opacity: 0.5;
+    font-family: "Roboto", sans-serif;
+}
+
+#banner {
+    padding-top: 106.7px;
+}
+
+#banner img {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: "playfair-display", serif;
+    font-size: 75px;
+    color: white;
+    text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
+    text-align: center;
+}
+
+#redbanner {
+    background-color: rgb(116, 16, 33, 0.75);
+    background-image: none;
+    height: 150px;
+}
+
+#redbanner h3 {
+    text-align: center;
+    color: white;
+    font-family: "playfair-display", serif;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#redbanner a:visited {
+    color: white;
+}
+
+#redbanner h4 {
+    text-align: center;
+    color: white;
+    font-family: "playfair-display", serif;
+    padding: 20px;
+}
+
+h1 {
+    height: 250px;
+    padding-top: 100px;
+
+}
+    
